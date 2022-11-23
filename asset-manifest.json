@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coin-app/static/css/main.ae0cf7b4.css",
+    "main.js": "/coin-app/static/js/main.074a7233.js",
+    "static/media/collectedCoinsLogo.png": "/coin-app/static/media/collectedCoinsLogo.4e4c6e48d53c35f0bef0.png",
+    "static/media/ergoLogo.png": "/coin-app/static/media/ergoLogo.4726acd7b26d68f9598f.png",
+    "index.html": "/coin-app/index.html",
+    "static/media/appBackground.svg": "/coin-app/static/media/appBackground.e77a83fe0da586515b9b.svg",
+    "main.ae0cf7b4.css.map": "/coin-app/static/css/main.ae0cf7b4.css.map",
+    "main.074a7233.js.map": "/coin-app/static/js/main.074a7233.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae0cf7b4.css",
+    "static/js/main.074a7233.js"
+  ]
+}
