@@ -1,7 +1,7 @@
 import "./donatePage.css";
 import React, {useState} from 'react';
 import App from '../../App';
-import collectedCoinsLogo from '../../../src/assets/collectedCoinsLogo.png';
+// import collectedCoinsLogo from '../../../src/assets/collectedCoinsLogo.png';
 import btcLogo from '../../../src/assets/btcLogo.png';
 import ergoLogo from '../../../src/assets/ergoLogo.png';
 
