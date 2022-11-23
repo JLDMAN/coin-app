@@ -1,0 +1,36 @@
+.bodySearch{
+    background-color: #9296b4;
+    text-align: center;
+    margin-top: 2%;
+    /* margin-bottom: 2%; */
+    width: 80%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:large;
+}
+
+.dropdownMenue{
+    padding: 5%;
+    font-size:large;
+}
+
+/* website design for large screens */
+@media (min-width: 1000px) {
+    .bodySearch{
+        background-color: #9296b4;
+        text-align: center;
+        margin-top: 2%;
+        /* margin-bottom: 2%; */
+        width: 40%;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size:20px;
+    }
+    
+    .dropdownMenue{
+        padding: 0;
+        font-size:small;
+    }
+}

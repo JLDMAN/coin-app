@@ -1,0 +1,62 @@
+.imageSizeDonate{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    padding-bottom: max(5px, 1%);
+}
+
+.textContent{
+    color:white;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: max(5px, 1%); 
+    padding-bottom: max(5px, 1%);
+    font-size:30px;
+}
+
+.textContentLarge{
+    color:white;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: max(5px, 1%); 
+    padding-bottom: max(5px, 1%);
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+@media (min-width: 1000px) {
+
+    .imageSizeDonate{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 12%;
+        padding-bottom: max(5px, 1%);
+    }
+
+    .textContent{
+        color:white;
+        width: 70%;
+        margin-left: auto;
+        margin-right:auto;
+        padding-top: 0; 
+        padding-bottom: 0;
+        font-size:15px;
+    }
+    
+    .textContentLarge{
+        color:white;
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+        padding-top: 0; 
+        padding-bottom: 0;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    
+
+}
