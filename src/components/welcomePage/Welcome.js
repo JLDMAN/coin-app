@@ -21,23 +21,26 @@ function Welcome() {
                 <img className="imageSize" src={collectedCoinsLogo} alt="collectedCoinsLogo" />
               </div>
             </div>
-            <p className="appText">
-                CI is a app designed to give you insight into the world of cryptography as it’s being used with blockchain technology to 
-                create asset transfer solutions.
+            <div>
+              <p className="appText">
+                  CI is a app designed to give you insight into the world of cryptography as it’s being used with blockchain technology to 
+                  create asset transfer solutions.
 
-                The most commonly know solution is Bitcoin, which was intended to serve as a store of wealth amidst troubling global
-                money markets.
+                  The most commonly know solution is Bitcoin, which was intended to serve as a store of wealth amidst troubling global
+                  money markets.
 
-                CI is intended to give you insight into the world of cryptocurrencies without you having to login, sign in, signup or 
-                go through KYC.
+                  CI is intended to give you insight into the world of cryptocurrencies without you having to login, sign in, signup or 
+                  go through KYC.
 
-                You can learn about industry key words, coins and the projects that are trying to change the world.
+                  You can learn about industry key words, coins and the projects that are trying to change the world.
 
-                Enjoy.
-            </p>
-            <p className="appText">
-                ~ CI Team
-            </p>
+                  Enjoy.
+              </p>
+              <p className="appText">
+                  ~ CI Team
+              </p>
+            </div>
+            <div className="pageFooterSpace"></div>
             <div className="footer">
               <button className="submitButtonNavigate" onClick={toggleHome}> Home </button>
             </div>

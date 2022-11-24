@@ -1,3 +1,12 @@
+.pageFooterSpace{
+    margin-bottom: 5%;
+}
 
+/* website design for large screens */
+@media (min-width: 1000px) {
+    .pageFooterSpace{
+        margin-bottom: 0%;
+    }
+}
 
 
