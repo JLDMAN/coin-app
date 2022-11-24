@@ -145,9 +145,19 @@ body {
   font-size:36px;
 }
 
+.textBodySelection{
+  color: #181d3d;
+  padding: 2%;
+  font-size:large;
+}
+
 .textBodySmall{
   color: #181d3d;
   font-size:36px;
+}
+
+.pageFooterSpace{
+  margin-bottom: 20%;
 }
 
 /* website design for large screens */
@@ -289,5 +299,9 @@ body {
   .textBodySmall{
     color: #181d3d;
     font-size:small;
+  }
+
+  .pageFooterSpace{
+    margin-bottom: 0%;
   }
 }

@@ -62,7 +62,7 @@ function Search() {
                             setShowResult(result);
                             }}>
                           {options.map((option) => (
-                            <MenuItem value={option.value} className="textBody">{option.label}</MenuItem>
+                            <MenuItem value={option.value} className="textBodySelection">{option.label}</MenuItem>
                           ))}
                         </Select>
                 </FormControl>

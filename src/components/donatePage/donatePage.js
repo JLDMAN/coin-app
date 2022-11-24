@@ -29,8 +29,8 @@ function Donate() {
           <img className="imageSizeDonate" src={ergoLogo} alt="ergo logo"></img>
           <p className="textContent"> ERG adress:</p>
           <p className="textContentLarge">9fEXwMn3ZuKnh5fDN79CMrSD9wCHYjQRDbXDg6uo1qZt5HeARou</p>
-          <br></br>
         </div>
+        <div className="pageFooterSpace"></div>
         <div className="footer">
           <button className="submitButtonNavigate" onClick={toggleHome}> Home </button>
         </div>
