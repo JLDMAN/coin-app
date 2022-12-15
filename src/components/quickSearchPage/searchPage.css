@@ -3,16 +3,16 @@
     text-align: center;
     margin-top: 2%;
     /* margin-bottom: 2%; */
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    font-size:medium;
+    font-size:16px;
 }
 
 .dropdownMenue{
     padding: 5%;
-    font-size:medium;
+    font-size:16px;
 }
 
 /* website design for large screens */

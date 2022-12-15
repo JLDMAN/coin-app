@@ -11,18 +11,18 @@ import Select from '@mui/material/Select';
 function Search() {
   // selectable coin list
   const options = [
-    { label: "All", value: ""},
-    { label: "Bitcoin", value: "bitcoin"},
-    { label: "Ergo", value: "ergo"},
-    { label: "Cardano", value: "cardano"},
-    { label: "Illuvium", value: "illuvium"},
-    { label: "Ethereum", value: "ethereum"},
-    { label: "Ravencoin", value: "ravencoin"},
-    { label: "Litecoin", value: "litecoin"},
-    { label: "Polkadot", value: "polkadot"},
-    { label: "Solana", value: "solana"},
-    { label: "Monero", value: "monero"},
-    { label: "Cronos", value: "crypto-com-chain"} 
+    { label: "All", value: "", key: "Id1"},
+    { label: "Bitcoin", value: "bitcoin", key: "Id2"},
+    { label: "Ergo", value: "ergo", key: "Id3"},
+    { label: "Cardano", value: "cardano", key: "Id4"},
+    { label: "Illuvium", value: "illuvium", key: "Id5"},
+    { label: "Ethereum", value: "ethereum", key: "Id6"},
+    { label: "Ravencoin", value: "ravencoin", key: "Id7"},
+    { label: "Litecoin", value: "litecoin", key: "Id8"},
+    { label: "Polkadot", value: "polkadot", key: "Id9"},
+    { label: "Solana", value: "solana", key: "Id10"},
+    { label: "Monero", value: "monero", key: "Id11"},
+    { label: "Cronos", value: "crypto-com-chain", key: "Id12"} 
   ];
   // show the returned coin data
   const [showResult, setShowResult] = useState(false);
@@ -48,7 +48,7 @@ function Search() {
               </div>
               <div className="dropdownMenue" >
                 <FormControl required sx={{ m: 3, minWidth: '90%'}}>
-                      <InputLabel id="demo-simple-select-required-label" class="textBody" >Select Coin</InputLabel>
+                      <InputLabel id="demo-simple-select-required-label" className="textBody" >Select Coin</InputLabel>
                         <Select
                           className="textBody"
                           labelId="demo-simple-select-required-label"
@@ -62,7 +62,8 @@ function Search() {
                             setShowResult(result);
                             }}>
                           {options.map((option) => (
-                            <MenuItem value={option.value} className="textBodySelection">{option.label}</MenuItem>
+                            <MenuItem value={option.value} className="textBodySelection" key={option.key}>{option.label}</MenuItem>
+                            // <li key={option.value()}>{option.label}</li>
                           ))}
                         </Select>
                 </FormControl>
@@ -71,6 +72,7 @@ function Search() {
             <div className="footer">
                   <button className="submitButtonNavigate" onClick={toggleHome}> Home </button>
             </div>
+            <p style={{color:'white'}}> All data obtained from <a href="https://www.coingecko.com/en/api">Coingecko API</a></p>
           </div>
       )}
       <div>

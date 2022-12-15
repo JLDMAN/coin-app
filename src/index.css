@@ -139,6 +139,28 @@ body {
   border-color: #ffffff;  
 }
 
+.dateRangeButton{
+  background-color: #f65364;
+  padding: 2%;
+  /* width: 150px; */
+  border-radius: 16px;
+  color: white;
+  border-color: #f65364;
+  font-size:15px;
+}
+
+.dateRangeButton:hover{
+  background-color: #848699;
+  color: white;
+  border-color: #848699;  
+}
+
+.dateRangeButton:focus{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-color: #ffffff;  
+}
+
 .textBody{
   color: #181d3d;
   padding-bottom: min(4px, 4%);
@@ -217,8 +239,8 @@ body {
   
   .flexItem{
     padding-top: 2%; 
-    width: 15%;
-    height: 15%; 
+    width: 12%;
+    height: 12%; 
     margin-top: 1%;
     color: white;
     font-weight: bold;
@@ -227,10 +249,7 @@ body {
   
   .submitButton{
     background-color: #f65364;
-    padding-top: 6%;
-    padding-bottom: 6%;
-    padding-left: 10%;
-    padding-right:10%;
+    padding: 6%;
     border-radius: 16px;
     color: white;
     border-color: #f65364;  
@@ -285,6 +304,28 @@ body {
   }
   
   .submitButtonNavigate:active{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-color: #ffffff;  
+  }
+
+  .dateRangeButton{
+    background-color: #f65364;
+    padding: 6%;
+    width: 150px;
+    border-radius: 16px;
+    color: white;
+    border-color: #f65364;
+    font-size:15px;
+  }
+  
+  .dateRangeButton:hover{
+    background-color: #848699;
+    color: white;
+    border-color: #848699;  
+  }
+
+  .dateRangeButton:focus{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     border-color: #ffffff;  

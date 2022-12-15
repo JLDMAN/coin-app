@@ -1,0 +1,28 @@
+.space{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    width: 50%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.bottom{
+    margin-bottom: 4%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    align-content: center;
+} 
