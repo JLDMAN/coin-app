@@ -47,7 +47,7 @@ function Search() {
                 <Selected coin={coin} />
               </div>
               <div className="dropdownMenue" >
-                <FormControl required sx={{ m: 3, minWidth: '80%'}}>
+                <FormControl required sx={{ m: 3, minWidth: '90%'}}>
                       <InputLabel id="demo-simple-select-required-label" class="textBody" >Select Coin</InputLabel>
                         <Select
                           className="textBody"
