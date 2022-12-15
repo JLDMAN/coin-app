@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coin-app/static/css/main.51ef5349.css",
-    "main.js": "/coin-app/static/js/main.d3a2006a.js",
+    "main.css": "/coin-app/static/css/main.9fefab09.css",
+    "main.js": "/coin-app/static/js/main.7b436864.js",
     "static/media/collectedCoinsLogo.png": "/coin-app/static/media/collectedCoinsLogo.4e4c6e48d53c35f0bef0.png",
     "static/media/ergoLogo.png": "/coin-app/static/media/ergoLogo.4726acd7b26d68f9598f.png",
     "index.html": "/coin-app/index.html",
     "static/media/appBackground.svg": "/coin-app/static/media/appBackground.e77a83fe0da586515b9b.svg",
-    "main.51ef5349.css.map": "/coin-app/static/css/main.51ef5349.css.map",
-    "main.d3a2006a.js.map": "/coin-app/static/js/main.d3a2006a.js.map"
+    "main.9fefab09.css.map": "/coin-app/static/css/main.9fefab09.css.map",
+    "main.7b436864.js.map": "/coin-app/static/js/main.7b436864.js.map"
   },
   "entrypoints": [
-    "static/css/main.51ef5349.css",
-    "static/js/main.d3a2006a.js"
+    "static/css/main.9fefab09.css",
+    "static/js/main.7b436864.js"
   ]
 }
