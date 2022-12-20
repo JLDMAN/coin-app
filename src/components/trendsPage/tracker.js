@@ -27,6 +27,7 @@ function Tracker(props) {
     { label: "Monero", value: "monero", key: "KId11"},
     { label: "Cronos", value: "crypto-com-chain", key: "KId12"} 
   ];
+  
   // show the returned coin data
   // const [showResult, setShowResult] = useState(false);
   // get the selected coin to pass to search api
@@ -40,14 +41,6 @@ function Tracker(props) {
     setHome(!home);
     setHideTracker(!hideTracker)
   };
-
-  // const setDay =()=>{
-  //   setRange('1');
-  // }
-
-  // const setWeek =()=>{
-  //   setRange('7');
-  // }
 
   const setMonth =()=>{
     setRange('30');
