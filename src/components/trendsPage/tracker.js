@@ -27,7 +27,7 @@ function Tracker(props) {
     { label: "Monero", value: "monero", key: "KId11"},
     { label: "Cronos", value: "crypto-com-chain", key: "KId12"} 
   ];
-  
+
   // show the returned coin data
   // const [showResult, setShowResult] = useState(false);
   // get the selected coin to pass to search api
@@ -58,7 +58,7 @@ function Tracker(props) {
     <div>
         {hideTracker && (
             <div className="center">
-              <div>
+              <div className ="firstGraph">
                 <Tracked coin={coin} range={range}/>
               </div>
               <div  className="bodySearch header">
